@@ -1,16 +1,56 @@
-# React + Vite
+# QuickPlan – Agenda Web de Eventos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada en **React + Vite** para consultar y organizar los eventos del centro educativo (charlas, talleres, torneos y excursiones).
 
-Currently, two official plugins are available:
+Los eventos se cargan desde un archivo JSON local y la aplicación permite buscar, filtrar, ver el detalle y marcar eventos como favoritos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠 Tecnologías usadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estructura del proyecto
+
+- Datos cargados desde `eventos.json` (sin backend)
+- Componentes React para separar la lógica:
+  - Lista de eventos
+  - Detalle de evento
+  - Favoritos
+  - Filtros de búsqueda
+
+---
+
+## ⚙️ Funcionalidades
+
+- Listado de eventos en tarjetas
+- Buscador por título o lugar
+- Filtro por categoría
+- Contador de eventos mostrados
+- Vista de detalle del evento
+- Sistema de favoritos
+- Simulación de carga de datos
+- Mensaje de error si no se cargan los eventos
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Instalar dependencias:
+
+```bash
+npm install
+```
+
+2. Ejecutar en modo desarrollo:
+
+```
+npm run dev
+```
+
+3. Abrir en el navegador la URL que muestra la terminal (normalmente http://localhost:5173).
