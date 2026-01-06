@@ -33,7 +33,9 @@ function EventList({ eventos, setEventoActivo }) {
                 </select>
             </div>
 
-            <p>Mostrando {filtrados.length} de {eventos.length} eventos</p>
+            <p className="counter">
+            Mostrando {filtrados.length} de {eventos.length} eventos
+            </p>
 
             <div className="event-grid">
                 {filtrados.map(evento => (

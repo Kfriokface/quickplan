@@ -1,6 +1,6 @@
 function EventCard({ evento, setEventoActivo }) {
   return (
-    <div className="card">
+    <div className={`card ${evento.categoria.toLowerCase()}`}>
       <h3>{evento.titulo}</h3>
       <p>{evento.categoria} | {evento.fecha}</p>
       <p>{evento.lugar}</p>

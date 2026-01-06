@@ -78,5 +78,85 @@
         "fecha": "2026-03-05",
         "lugar": "Salida desde la estación (08:30)",
         "descripcion": "Visita con actividades prácticas relacionadas con electrónica, programación y ciencia. Lleva autorización firmada."
+    },
+    {
+        "id": 11,
+        "titulo": "Charla: Cómo organizarte mejor en DAW",
+        "categoria": "Charla",
+        "fecha": "2026-03-10",
+        "lugar": "Aula 2",
+        "descripcion": "Consejos prácticos para gestionar tareas, proyectos y entregas en DAW sin agobios. Herramientas y hábitos recomendados."
+    },
+    {
+        "id": 12,
+        "titulo": "Taller práctico: Introducción a React",
+        "categoria": "Taller",
+        "fecha": "2026-03-12",
+        "lugar": "Aula Informática 1",
+        "descripcion": "Primeros pasos con componentes, props y estado en React. Orientado a alumnado con conocimientos básicos de JavaScript."
+    },
+    {
+        "id": 13,
+        "titulo": "Torneo: FIFA 24",
+        "categoria": "Torneo",
+        "fecha": "2026-03-16",
+        "lugar": "Aula Multimedia",
+        "descripcion": "Torneo individual con formato eliminatorio. Inscripción previa obligatoria. Premios para los finalistas."
+    },
+    {
+        "id": 14,
+        "titulo": "Excursión: Jornada de puertas abiertas en universidad",
+        "categoria": "Excursión",
+        "fecha": "2026-03-18",
+        "lugar": "Salida desde la puerta principal",
+        "descripcion": "Visita a las instalaciones universitarias con charlas informativas sobre grados relacionados con tecnología."
+    },
+    {
+        "id": 15,
+        "titulo": "Taller: Introducción a bases de datos SQL",
+        "categoria": "Taller",
+        "fecha": "2026-03-23",
+        "lugar": "Aula Informática 2",
+        "descripcion": "Conceptos básicos de bases de datos relacionales, consultas simples y ejemplos prácticos con SQL."
+    },
+    {
+        "id": 16,
+        "titulo": "Charla: Salidas profesionales en el sector IT",
+        "categoria": "Charla",
+        "fecha": "2026-03-25",
+        "lugar": "Salón de actos",
+        "descripcion": "Panorama actual del mercado laboral tecnológico, perfiles más demandados y consejos para el primer empleo."
+    },
+    {
+        "id": 17,
+        "titulo": "Torneo: Ping-pong interclases",
+        "categoria": "Torneo",
+        "fecha": "2026-03-30",
+        "lugar": "Gimnasio",
+        "descripcion": "Torneo amistoso entre clases. Material incluido. Actividad pensada para fomentar la convivencia."
+    },
+    {
+        "id": 18,
+        "titulo": "Taller: Diseño web con HTML y CSS",
+        "categoria": "Taller",
+        "fecha": "2026-04-01",
+        "lugar": "Aula 4",
+        "descripcion": "Estructura básica de una web, estilos con CSS y buenas prácticas para crear páginas claras y accesibles."
+    },
+    {
+        "id": 19,
+        "titulo": "Charla: Buenas prácticas en trabajo en equipo",
+        "categoria": "Charla",
+        "fecha": "2026-04-07",
+        "lugar": "Biblioteca",
+        "descripcion": "Cómo organizarse en proyectos grupales, repartir tareas y comunicarse de forma eficaz."
+    },
+    {
+        "id": 20,
+        "titulo": "Excursión: Feria tecnológica educativa",
+        "categoria": "Excursión",
+        "fecha": "2026-04-09",
+        "lugar": "Salida desde la estación (09:00)",
+        "descripcion": "Visita a una feria con stands de empresas, centros educativos y demostraciones tecnológicas."
     }
 ]

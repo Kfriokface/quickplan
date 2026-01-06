@@ -5,6 +5,7 @@ import eventosData from "./data/eventos.json";
 import EventList from "./components/EventList";
 import EventDetail from "./components/EventDetail";
 import Favorites from "./components/Favorites";
+import Footer from "./components/Footer";
 
 function App() {
   const [eventos, setEventos] = useState([]);
@@ -21,7 +22,7 @@ function App() {
         setEventos(eventosData);
       }
       setCargando(false);
-    }, 1000);
+    }, 3000);
   }, []);
 
   const addFavorito = (evento) => {
@@ -34,8 +35,8 @@ function App() {
     setFavoritos(favoritos.filter(e => e.id !== id));
   };
 
-  if (cargando) return <p>Cargando…</p>;
-  if (error) return <p>{error}</p>;
+  if (cargando) return <p className="msg loading">Cargando…</p>;
+  if (error) return <p className="msg error">{error}</p>;
 
   return (
     <div className="app">
@@ -58,6 +59,9 @@ function App() {
           />
         </>
       )}
+
+      <Footer />
+
     </div>
   );
 }
