@@ -33,7 +33,7 @@
   flex-direction: column;
   max-width: 900px;
   margin: auto;
-  padding: 0 20px;
+  padding: 40px 20px 0;
 }
 
 
@@ -155,13 +155,12 @@
   padding: 15px 0;
   font-size: 14px;
   text-align: center;
-  color: var(--white);
-  background-color: var(--dark-espresso);
+  color: var(--espresso);
 }
 
 .footer small {
   display: block;
   margin-top: 6px;
   font-size: 12px;
-  color: var(--tangerine-dream);
+  color: var(--fiery-terracotta);
 }

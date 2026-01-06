@@ -30,11 +30,16 @@ h1, h2, h3 {
 h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  color: var(espresso);
 }
 
 h3 {
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+p {
+  margin: .5rem 0;
 }
 
 input, select {
