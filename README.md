@@ -6,7 +6,7 @@ Los eventos se cargan desde un archivo JSON local y la aplicación permite busca
 
 ---
 
-## 🛠 Tecnologías usadas
+## Tecnologías usadas
 
 - React
 - Vite
@@ -15,7 +15,7 @@ Los eventos se cargan desde un archivo JSON local y la aplicación permite busca
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 - Datos cargados desde `eventos.json` (sin backend)
 - Componentes React para separar la lógica:
@@ -26,7 +26,7 @@ Los eventos se cargan desde un archivo JSON local y la aplicación permite busca
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Listado de eventos en tarjetas
 - Buscador por título o lugar
@@ -39,7 +39,7 @@ Los eventos se cargan desde un archivo JSON local y la aplicación permite busca
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Instalar dependencias:
 
@@ -54,3 +54,18 @@ npm run dev
 ```
 
 3. Abrir en el navegador la URL que muestra la terminal (normalmente http://localhost:5173).
+
+---
+
+## Visualizar el proyecto
+
+El proyecto se encuentra desplegado en un hosting privado y se puede visualizar desde el siguiente enlace: 
+https://quickplan.albertosancho.es/
+
+---
+
+## Autor
+
+**Alberto Sancho**  
+Asignatura: Despliegue de Aplicaciones Web  
+Fecha: Enero 2026
